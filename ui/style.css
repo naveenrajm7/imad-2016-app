@@ -4,15 +4,15 @@ body {
     margin-top: 75px;
 }
 
-.center {
+.center{
     text-align: center;
 }
 
-.text-big {
+.text-big{
     font-size: 300%;
 }
 
-.bold {
+.bold{
     font-weight: bold;
 }
 
@@ -20,3 +20,13 @@ body {
     height: 200px;
 }
 
+
+        .container{   
+            max-width: 800px;
+            margin: 0 auto;
+            color: #148a7a;
+            font-family: sans-serlf;
+            padding-top: 60px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }

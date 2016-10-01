@@ -45,7 +45,7 @@ title:'Article Three|Draxler',
 },
 };
 function createTemplate (data){
-    var tile=data.title;
+    var title=data.title;
     var date=data.date;
     var heading=data.heading;
     var content=data.content;

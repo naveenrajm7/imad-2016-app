@@ -13,7 +13,7 @@ var articles={
     date:'Sep 5,2016',
     content:`<p>
                 this is the content of my article one. 
-                this is the content of my article one. this is the content of my article one ,. come on im really doing something good now thanks to nptel & IIT madras & our sir Tanmai Gopal 
+                this is the content of my article one. this is the content of my article one ,thanks to nptel & IIT madras & our sir Tanmai Gopal 
             </p>
             <p>
                 this is the content of my article one. this is the content of my article one
@@ -24,8 +24,8 @@ var articles={
 },
 'article-two':{
     title:'Article Two|Draxler',
-    heading:'Article One',
-    date:'Sep 5,2016',
+    heading:'Article two',
+    date:'Sep 10,2016',
     content:`<p>
                 this is the content of my article two
             </p>
@@ -33,8 +33,8 @@ var articles={
                 see you later folks.
             </p>`},
 'article-three':{
-title:'Article One|Draxler',
-    heading:'Article One',
+title:'Article Three|Draxler',
+    heading:'Article Three',
     date:'Sep 5,2016',
     content:`<p>
                 this is the content of my third article

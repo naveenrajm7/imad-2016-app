@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 
 var articles={
-'arcticle-one':{
+'article-one':{
     title:'Article One|Draxler',
     heading:'Article One',
     date:'Sep 5,2016',
@@ -53,7 +53,7 @@ function createTemplate (data){
 var HtmlTemplate=`<html>
     <head>
         <title>
-            Article One|Draxler
+            ${title}
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
          <link href="/ui/style.css" rel="stylesheet" />

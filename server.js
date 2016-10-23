@@ -16,7 +16,7 @@ var articles={
                 this is the content of my article one. this is the content of my article one ,thanks to nptel & IIT madras & our sir Tanmai Gopal 
             </p>
             <p>
-                this is the content of my article one. this is the content of my article one
+                This is the content of My Article one.
             </p>
             <p>
                 see you later folks.

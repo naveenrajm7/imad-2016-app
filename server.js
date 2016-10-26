@@ -108,6 +108,15 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
+var names=[];
+app.get('/submit-name/:name',function(req,res){
+    //get the name from request object
+    var name=req.params.name;
+    
+    names.push(name);
+    //Json =javascript Object Notation
+    res.send(JSON.stringfy(names));
+});
 
 var port = 8084; // Use 8080 for local development because you might already have apache running on 80
 app.listen(8084, function () {

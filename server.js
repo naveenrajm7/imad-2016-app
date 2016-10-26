@@ -90,7 +90,7 @@ app.get('/counter',function(req,res){
     res.send(counter.toString());
 });
 var names=[];
-app.get('/submit-name/:name',function(req,res){  //submit-name?nmae=XXXX
+app.get('/submit-name/:name',function(req,res){  //submit-name?name=XXXX
     //get the name from request object
     var name=req.query.name;
     
